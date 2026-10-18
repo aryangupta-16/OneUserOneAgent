@@ -22,21 +22,27 @@ cd submission
 ```
 
 ### Run the Replay
+Replace `<PATH_TO_DATA_PACK>` with the location of the data pack they provided you:
 ```bash
-python3 -m src.main replay --pack "../docs/one_user_one_agent_pack 2" --out sample_run
+python3 -m src.main replay --pack "<PATH_TO_DATA_PACK>" --out sample_run
+```
+
+Example:
+```bash
+python3 -m src.main replay --pack "../one_user_one_agent_pack" --out sample_run
 ```
 
 ### Run the Simulator
 ```bash
-python3 "../docs/one_user_one_agent_pack 2/simulator/simulate_outcomes.py" \
-  --pack "../docs/one_user_one_agent_pack 2" \
+python3 "<PATH_TO_DATA_PACK>/simulator/simulate_outcomes.py" \
+  --pack "<PATH_TO_DATA_PACK>" \
   --actions sample_run/actions.jsonl \
   --out sample_run/sim
 ```
 
 ### Judge Outcomes and Compute Impact
 ```bash
-python3 -m src.main judge --pack "../docs/one_user_one_agent_pack 2" \
+python3 -m src.main judge --pack "<PATH_TO_DATA_PACK>" \
   --decisions sample_run/decisions.jsonl \
   --outcomes-events sample_run/sim/outcome_events.jsonl \
   --out sample_run
