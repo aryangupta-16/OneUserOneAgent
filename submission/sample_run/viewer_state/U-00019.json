@@ -1,0 +1,19 @@
+{
+  "user_id": "U-00019",
+  "dialect": "d1",
+  "dialect_conflicts": [],
+  "subscription_status": "never",
+  "arm": "agent",
+  "consent": {
+    "notifications_opt_in": false,
+    "whatsapp_opt_in": true
+  },
+  "has_played": false,
+  "has_completed_episode": false,
+  "has_purchased": false,
+  "current_goal": null,
+  "goal_history": [],
+  "decision_count": 0,
+  "action_count": 0,
+  "event_count": 2
+}

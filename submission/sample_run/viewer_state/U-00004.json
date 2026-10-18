@@ -1,0 +1,67 @@
+{
+  "user_id": "U-00004",
+  "dialect": "d1",
+  "dialect_conflicts": [],
+  "subscription_status": "active",
+  "arm": "agent",
+  "consent": {
+    "notifications_opt_in": true,
+    "whatsapp_opt_in": true
+  },
+  "has_played": true,
+  "has_completed_episode": true,
+  "has_purchased": false,
+  "current_goal": {
+    "id": "G07",
+    "name": "resume_series_3d",
+    "deadline": "2026-10-04T16:00:18.167000+00:00",
+    "success": {
+      "event": "play_started",
+      "condition": "same content_slug as the unfinished series",
+      "window_hours": 72
+    },
+    "started_at": "2026-10-01T16:00:18.167000+00:00",
+    "status": "open"
+  },
+  "goal_history": [
+    {
+      "id": "G07",
+      "name": "resume_series_3d",
+      "deadline": "2026-10-04T16:00:18.167000+00:00",
+      "success": {
+        "event": "play_started",
+        "condition": "same content_slug as the unfinished series",
+        "window_hours": 72
+      },
+      "started_at": "2026-10-01T16:00:18.167000+00:00",
+      "status": "open"
+    },
+    {
+      "id": "G07",
+      "name": "resume_series_3d",
+      "deadline": "2026-10-04T16:00:18.167000+00:00",
+      "success": {
+        "event": "play_started",
+        "condition": "same content_slug as the unfinished series",
+        "window_hours": 72
+      },
+      "started_at": "2026-10-01T16:00:18.167000+00:00",
+      "status": "open"
+    },
+    {
+      "id": "G07",
+      "name": "resume_series_3d",
+      "deadline": "2026-10-04T16:00:18.167000+00:00",
+      "success": {
+        "event": "play_started",
+        "condition": "same content_slug as the unfinished series",
+        "window_hours": 72
+      },
+      "started_at": "2026-10-01T16:00:18.167000+00:00",
+      "status": "open"
+    }
+  ],
+  "decision_count": 3,
+  "action_count": 3,
+  "event_count": 132
+}

@@ -1,0 +1,12 @@
+[project]
+name = "one-user-one-agent"
+version = "0.1.0"
+description = "Agentic AI Engineering Assignment - One User, One Agent"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+llm = ["openai>=1.0.0"]
+
+[project.scripts]
+agent = "src.main:main"

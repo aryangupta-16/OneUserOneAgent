@@ -1,0 +1,19 @@
+{
+  "user_id": "U-00022",
+  "dialect": "d2",
+  "dialect_conflicts": [],
+  "subscription_status": "active",
+  "arm": "holdout",
+  "consent": {
+    "notifications_opt_in": true,
+    "whatsapp_opt_in": true
+  },
+  "has_played": true,
+  "has_completed_episode": true,
+  "has_purchased": false,
+  "current_goal": null,
+  "goal_history": [],
+  "decision_count": 1,
+  "action_count": 0,
+  "event_count": 55
+}

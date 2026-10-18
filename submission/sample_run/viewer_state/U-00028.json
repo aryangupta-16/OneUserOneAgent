@@ -1,0 +1,48 @@
+{
+  "user_id": "U-00028",
+  "dialect": "d5",
+  "dialect_conflicts": [
+    {
+      "source": "deeplink",
+      "dialect": "d2"
+    }
+  ],
+  "subscription_status": "never",
+  "arm": "agent",
+  "consent": {
+    "notifications_opt_in": true,
+    "whatsapp_opt_in": false
+  },
+  "has_played": true,
+  "has_completed_episode": true,
+  "has_purchased": false,
+  "current_goal": {
+    "id": "G05",
+    "name": "first_paid_7d",
+    "deadline": "2026-10-08T11:57:01.494000+00:00",
+    "success": {
+      "event": "purchase_completed",
+      "condition": "is_trial = false",
+      "window_hours": 168
+    },
+    "started_at": "2026-10-01T11:57:01.494000+00:00",
+    "status": "open"
+  },
+  "goal_history": [
+    {
+      "id": "G05",
+      "name": "first_paid_7d",
+      "deadline": "2026-10-08T11:57:01.494000+00:00",
+      "success": {
+        "event": "purchase_completed",
+        "condition": "is_trial = false",
+        "window_hours": 168
+      },
+      "started_at": "2026-10-01T11:57:01.494000+00:00",
+      "status": "open"
+    }
+  ],
+  "decision_count": 1,
+  "action_count": 1,
+  "event_count": 33
+}
